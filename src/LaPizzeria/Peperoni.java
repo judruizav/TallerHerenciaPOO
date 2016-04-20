@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package LaPizzeria;
+package lapizzeria;
 
 /**
  *
- * @author Julian
+ * @author IVAN
  */
-public class Peperoni extends Pizza {
-    public Peperoni(){
-      super();
+public class Peperoni extends Pizza{
+    public Peperoni(){ 
+    super();
       this.ingredientes= new String[3];
-      this.ingredientes[0]= "Rodajas de peperoni";
-      this.ingredientes[0]= "Rodajas de cebolla";
-      this.ingredientes[0]= "Queso parmesano rallado";
+      this.ingredientes[0]= "Rodajas de peperoni ";
+      this.ingredientes[1]= "Rodajas de cebolla ";
+      this.ingredientes[2]= "Queso parmesano rallado.";
     }
 
     public String getMasa() {

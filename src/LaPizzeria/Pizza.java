@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package LaPizzeria;
+package lapizzeria;
 
-/**
- *
- * @author Julian
- */
+
 public class Pizza {
     protected String masa;
     protected String salsa;
@@ -20,9 +17,9 @@ public class Pizza {
     }
     
     public void preparar(){
-      System.out.println("Preparar y amasar masa " + this.masa);
-      System.out.println("Adicionar salsa de " + this.salsa);
-      System.out.print("Adicionar ");
+      System.out.println("Preparar y amasar masa: " + this.masa);
+      System.out.println("Adicionar salsa de: " + this.salsa);
+      System.out.print("Adicionar: " + "");
       for(int i=0; i<this.ingredientes.length-1; i++){
         System.out.print(this.ingredientes[i] + ",");      
       }
@@ -30,14 +27,14 @@ public class Pizza {
     }
     
     public void hornear(){
-      System.out.println("Hornear pizza");
+      System.out.println("Hornear pizza: Duración: 15mins.");
     }
     
     public void cortar(){
-      System.out.println("Cortar pizza");
+      System.out.println("Cortar pizza: 12 porciones.");
     }
     
     public void empacar(){
-      System.out.println("Empacar pizza");
+      System.out.println("Empacar pizza: Caja ecológica");
     }
 }

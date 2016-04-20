@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package LaPizzeria;
+package lapizzeria;
 
 /**
  *
- * @author Julian
+ * @author IVAN
  */
 public class Queso extends Pizza {
     public Queso(){
@@ -15,11 +15,11 @@ public class Queso extends Pizza {
       this.masa= "Corteza regular";
       this.ingredientes= new String[2];
       this.ingredientes[0]= "Queso mozzarela fresco";
-      this.ingredientes[1]= "Parmesano";
+      this.ingredientes[1]= " Parmesano";
     }
 
     public String getMasa() {
-        return masa;
+        return this.masa;
     }
 
     public String getSalsa() {
@@ -27,7 +27,7 @@ public class Queso extends Pizza {
     }
 
     public String[] getIngredientes() {
-        return ingredientes;
+        return this.ingredientes;
     }
     
     
