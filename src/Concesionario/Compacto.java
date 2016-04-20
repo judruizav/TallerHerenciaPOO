@@ -14,4 +14,9 @@ public class Compacto extends Auto{
     public Compacto(int cantidadPasajeros, String numSerieMotor, String marca, int año, double precio) {
         super(cantidadPasajeros, numSerieMotor, marca, año, precio);
     }
+    
+    @Override
+    public String toString(){
+      return "Compacto " + "\n" + super.toString();
+    }
 }

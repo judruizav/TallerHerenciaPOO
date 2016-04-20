@@ -14,4 +14,9 @@ public class Vagoneta extends Auto{
     public Vagoneta(int cantidadPasajeros, String numSerieMotor, String marca, int año, double precio) {
         super(cantidadPasajeros, numSerieMotor, marca, año, precio);
     }
+    
+    @Override
+    public String toString(){
+      return "Vagoneta " + "\n" + super.toString();
+    }
 }

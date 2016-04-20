@@ -21,4 +21,10 @@ public class Camioneta extends Vehiculo{
         this.numEjes = numEjes;
         this.numRodadas = numRodadas;
     }  
+    
+    @Override
+    public String toString(){
+      return "Camioneta " + "\n" + super.toString() + "Capacidad de carga en Kgs: " + this.cargaKgs 
+              + " Numero de ejes: " + this.numEjes + " Numero de rodadas: " + this.numRodadas;   
+    }
 }

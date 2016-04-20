@@ -18,5 +18,9 @@ public class Auto extends Vehiculo{
         this.cantidadPasajeros = cantidadPasajeros;
     }
     
+    @Override
+    public String toString(){
+      return super.toString() + " Cantidad de pasajeros: " + this.cantidadPasajeros;
+    }
     
 }

@@ -22,4 +22,11 @@ public class Vehiculo {
         this.año = año;
         this.precio = precio;
     }    
+    
+    @Override
+    public String toString(){
+      return "Marca: " + this.marca + " Año: " + this.año + 
+              " Numero de serie del motor: " + this.numSerieMotor + " Precio: " + this.precio + 
+              "\n" + "Especificaciones del vehiculo " + "/n";    
+    }
 }
