@@ -47,6 +47,5 @@ public class LaPizzeria {
         }
         System.out.println("");
         System.out.println("***GRACIAS POR SU PEDIDO, VUELVA PRONTO***");
-        System.out.println("By: EV :3");
     }
 }
