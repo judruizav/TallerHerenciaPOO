@@ -67,7 +67,7 @@ public class Alien {
     
     @Override
     public String toString() {
-        return "Alien{" + "nombre=" + nombre + ", color=" + color + ", numeroDeOjos=" + numeroDeOjos + ", numeroDeVidas=" + numeroDeVidas + ", habilidad=" + habilidad + '}';
+        return "Alien{" + "nombre=" + getNombre() + ", color=" + getColor() + ", numeroDeOjos=" + getNumeroDeOjos() + ", numeroDeVidas=" + getNumeroDeVidas() + ", habilidad=" + getHabilidad() + '}';
     }
     
 }
