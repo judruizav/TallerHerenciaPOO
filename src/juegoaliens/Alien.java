@@ -65,4 +65,9 @@ public class Alien {
         this.habilidad = habilidad;
     }
     
+    @Override
+    public String toString() {
+        return "Alien{" + "nombre=" + nombre + ", color=" + color + ", numeroDeOjos=" + numeroDeOjos + ", numeroDeVidas=" + numeroDeVidas + ", habilidad=" + habilidad + '}';
+    }
+    
 }
