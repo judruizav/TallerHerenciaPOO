@@ -7,7 +7,7 @@ package juegoaliens;
 
 /**
  *
- * @author Sebastian
+ * @author SebasBebesongo 
  */
 public class Main {
 
