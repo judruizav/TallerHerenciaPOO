@@ -18,11 +18,7 @@ public class Marte extends Alien{
     @Override
     public String toString() {
         return "Tu Marciano tiene las siguientes caracteristicas: " +
-               "Nombre: " + getNombre() + ", " +
-               "Color: " + getColor() + ", " +
-               "Numero de Ojos: " + getNumeroDeOjos() + ", " +
-               "Numero de Vidas: " + getNumeroDeVidas() + ", " +
-               "Habilidad: " + getHabilidad();      
+              super.toString();       
     }
     
 }
