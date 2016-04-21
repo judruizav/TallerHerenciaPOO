@@ -13,6 +13,8 @@ public class Aplicacion {
 
     public void menu(){
        java.util.Scanner lectura = new java.util.Scanner(System.in);
+       int opc = 0;
+       do{
        int opcion = 0;
        System.out.println("¡Crea Tu Alien!");
        System.out.println("¡Bienvenido! En este juego podras crear tus aliens como quieras :3");
@@ -58,5 +60,10 @@ public class Aplicacion {
        }
        System.out.println();
        System.out.println("¡Gracias por haber jugado a crear tu Alien!");
+       System.out.println();
+       System.out.println("Deseas jugar nuevamente?");
+       System.out.println("1. Si   2. No");
+       opc = lectura.nextInt();
+       }while(opc==1);
     }   
 }
