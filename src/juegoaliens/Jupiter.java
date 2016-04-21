@@ -18,10 +18,6 @@ public class Jupiter extends Alien{
     @Override
     public String toString() {
         return "Tu Jupiteriano tiene las siguientes caracteristicas: " +
-               "Nombre: " + getNombre() + ", " +
-               "Color: " + getColor() + ", " +
-               "Numero de Ojos: " + getNumeroDeOjos() + ", " +
-               "Numero de Vidas: " + getNumeroDeVidas() + ", " +
-               "Habilidad: " + getHabilidad();      
+              super.toString();  
     }
 }
