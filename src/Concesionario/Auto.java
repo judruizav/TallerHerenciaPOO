@@ -20,7 +20,7 @@ public class Auto extends Vehiculo{
     
     @Override
     public String toString(){
-      return super.toString() + " Cantidad de pasajeros: " + this.cantidadPasajeros;
+      return super.toString() + "Cantidad de pasajeros: " + this.cantidadPasajeros;
     }
     
 }
